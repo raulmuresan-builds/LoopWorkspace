@@ -191,7 +191,7 @@ jobs:
           fi
 
           # Loop and Learn customizations (Customization Select, applied in Browser Build)
-          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" future_carbs_4h low_carb_limit no_auth override_sens now_line lnl_icon meal_days cgm_sensor_notes profiles basal_lock negative_insulin
+          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" future_carbs_4h low_carb_limit no_auth override_sens now_line lnl_icon meal_days cgm_sensor_notes profiles basal_lock negative_insulin remote_carb_edit
 
           # Submodule Loop patches:
           # Template for customizing submodule Loop (changes Loop app name to "CustomLoop")
